@@ -2,9 +2,7 @@
 error_reporting(E_ALL);
 if (!isset($_GET['path']))
     header('Location: /home');
-
-if (!file_exists(__DIR__."/includes/".$_GET['path']).".inc.php")
-{
+if (!file_exists(__DIR__."/includes/".$_GET['path'].".inc.php")) {
     http_response_code(404);
     $_GET['path'] = "404";
 }

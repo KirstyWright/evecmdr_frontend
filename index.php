@@ -2,6 +2,12 @@
 error_reporting(E_ALL);
 if (!isset($_GET['path']))
     header('Location: /home');
+
+if (!file_exists(__DIR__."/includes/".$_GET['path']).".inc.php")
+{
+    http_response_code(404);
+    $_GET['path'] = "404";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +24,7 @@ if (!isset($_GET['path']))
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <?php endif;?>
-    <link rel="stylesheet" href="/main.css?r=1.1">
+    <link rel="stylesheet" href="/main.css?r=2">
     <script src="/script/main.js"></script>
 </head>
 <?php

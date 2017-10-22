@@ -2,6 +2,9 @@ html,body {
     margin:0;
     padding:0;
 }
+.tc {
+    text-align: center;
+}
 .cv_section{
     padding-top:20px;
     padding-bottom:0px;

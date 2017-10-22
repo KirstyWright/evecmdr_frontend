@@ -1,0 +1,50 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+.cv_section{
+    padding-top:20px;
+    padding-bottom:0px;
+}
+.cv_sectionDivider{
+    display:block;
+    height:auto;
+    margin-top:20px;
+    text-align:center;
+    background:#5C6BC0;
+    color:#FFF;
+}
+
+.cv_sectionDivider h1{
+    padding-top:20px;
+    padding-bottom:20px;
+    display:block;
+}
+
+#cv_container{
+    padding:0 !important;
+}
+
+.cv_shortPoints{
+    list-style:none;
+    font-size:18px;
+    text-align:center;
+    font-weight:300;
+}
+
+.cv_shortPoints li{
+    padding:5px;
+}
+
+.cv_start{
+    display:block;
+    height:120px;
+    margin-top:-10px;
+    color:#FFF;
+    text-align:center;
+    background:#5C6BC0;
+}
+
+.cv_icon{
+    color:#8C9EFF;
+}

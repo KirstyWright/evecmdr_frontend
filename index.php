@@ -36,4 +36,5 @@ if (!isset($_GET['path']))
     <div class="container-fluid">
         <?php include(__DIR__."/includes/".$_GET['path']).".inc.php";?>
     </div>
-    </html>
+</body>
+</html>

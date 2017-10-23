@@ -2,8 +2,19 @@ html,body {
     margin:0;
     padding:0;
 }
+.project_row{
+    padding:20px 0px;
+
+}
 .tc {
     text-align: center;
+}
+.project_img_block{
+    min-height:204px;
+}
+.project_block{
+    box-sizing: border-box;
+    padding:10px;
 }
 .cv_section{
     padding-top:20px;

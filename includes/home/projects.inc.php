@@ -6,7 +6,8 @@
         <p>If you are looking to get Entity Auth for your organisation or group then please contact me on one of the above methods. Alternatively you can EVEmail "Princess Vamps".</p>
     </div>
     <div class="row project_row">
-        <img class="featurette-image img-responsive center-block" src="https://agent.evecmdr.com/style/images/polaris_logo.png" alt="Polaris Logo"/>
+    <!--    <img class="featurette-image img-responsive center-block" src="https://agent.evecmdr.com/style/images/polaris_logo.png" alt="Polaris Logo"/>-->
+	<h2>Polaris</h2>
         <p>Polaris is an assistant for an intelligence network for the game EVEonline, it runs and collects information from automated relays and external sources.
             <br>Components of Polaris include:
         </p>
@@ -16,6 +17,7 @@
             <li>Discord bots on a Python framework to output important information.</li>
         </ul>
     </div>
+	<br>
     <div class="row project_row">
         <img class="featurette-image img-responsive center-block" src="https://i.gyazo.com/dce3d61a5d7377528f65a659e5541679.png" style='width:361px;height:100%;' alt="Generic placeholder image"/>
         <br>

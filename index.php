@@ -1,7 +1,10 @@
 <?php
 error_reporting(E_ALL);
 if (!isset($_GET['path']) || empty($_GET['path']))
+{
     header('Location: /home');
+    die;
+}
 if (!file_exists(__DIR__."/includes/".$_GET['path'].".inc.php")) {
     http_response_code(404);
     $_GET['path'] = "404";
@@ -43,9 +46,6 @@ if ($_GET['path'] == 'cv') {
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/bland">Why is this so bland ?</a>
                 </li>
             </ul>
         </div>

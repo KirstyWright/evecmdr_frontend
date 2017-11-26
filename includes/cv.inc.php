@@ -30,14 +30,15 @@
     </div>
     <div class="col-lg-8 col-lg-offset-2 cv_section">
         <h3>
-            Mintedbox Web Developer
+            Mintedbox Web Developer (PHP)
         </br>
         <small>
             July 2015 - Present
         </small>
     </h3>
     <p>
-        This opportunity is being worked alongside my apprenticeship. Complex projects I have worked on include an information site for Vodafone and an internal pension calculator for Tesco. More recently I have built an internal game app for Wagamama. Whilst my role is a fullstack developer, my projects mainly consist of websites requiring bespoke systems or admin interfaces.
+        I was initially employed alongside my apprenticeship and then I stayed on as a full stack developer. <br>
+        Whilst my role is a fullstack developer, my projects mainly consist of websites requiring bespoke systems or admin interfaces. I have gained experience in building mobile apps via Cordova as well as PHP based APIs to go with them. I have built many sites ranging from ecommerce sites with third party inventory management integrations to booking systems for hotels.
     </p>
     <ul>
         <li>Turning PSD and PDF designs into fully fledged websites.</li>

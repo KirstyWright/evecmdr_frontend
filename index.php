@@ -37,20 +37,10 @@ if ($_GET['path'] == 'cv') {
 } else {
 ?>
 <body style="padding-top:4rem;">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Kirsty Wright</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container-fluid">
+    <div class="container">
+        <?php if ($_GET['path'] !== 'home'):?>
+            <a id="header_left" class='normal-link' href='/home'>&lt;&lt; Back home</a>
+        <?php endif;?>
         <?php include(__DIR__."/includes/".$_GET['path']).".inc.php";?>
     </div>
     <?php } ?>

@@ -1,6 +1,8 @@
 html,body {
     margin:0;
     padding:0;
+    background:#45405e;
+    color:#efef;
 }
 .project_row{
     padding:20px 0px;
@@ -61,4 +63,50 @@ html,body {
 
 .cv_icon{
     color:#8C9EFF;
+}
+
+.custom-button-light{
+    text-decoration: none;
+    border:1px solid #ccc;
+    color:inherit;
+}
+.custom-button-light:hover {
+    color:#6a8eae;
+    border:1px solid #6a8eae;
+}
+
+.profile_picture{
+    width:150px;
+    height:auto;
+    border-radius:10px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom:20px;
+}
+
+a.normal-link{
+    color:#efef;
+    text-decoration: underline;
+}
+a.normal-link:hover{
+    color:#6a8eae;
+}
+
+#header_left {
+    position: absolute;
+    left:1rem;
+    top:2rem;
+    display:block;
+}
+
+.big_divider{
+    width:calc(100% - 40px);
+    display: block;
+    margin:20px 20px;
+    background-color:#ccc;
+    height:1px;
+}
+
+.home_col {
+    padding:10px 40px;
 }

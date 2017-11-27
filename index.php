@@ -13,6 +13,9 @@ if (!file_exists(__DIR__."/includes/".$_GET['path'].".inc.php")) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="Kirsty Wright - web developer. My home website &amp; portfolio.">
+    <meta name="keywords" content="Kirsty Wright,php,developer">
+    <meta name="author" content="Kirsty Wright">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

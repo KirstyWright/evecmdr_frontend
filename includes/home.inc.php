@@ -1,6 +1,6 @@
 <h1 class='tc'>Hi</h1>
 <img src="/style/images/profile.jpg" alt="Picture of Kirsty" class="tc profile_picture">
-<p class="tc">My name is Kirsty Wright and I am web developer.</p>
+<p class="tc">My name is Kirsty Wright and I am a Web Developer.</p>
 <p class="tc">If you want to contact me then you can have a look at the boxes below.</p>
 <div class="tc">
     <a class="btn custom-button-light" href='mailto:kirsty@evecmdr.com' data-toggle='tooltip' data-tooltdata-placement="top" title="kirsty@evecmdr.com">Email</a>

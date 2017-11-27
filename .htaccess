@@ -1,7 +1,7 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^www.sfyn.org.com [NC,OR]
-RewriteCond %{HTTP_HOST} ^sfyn.org.com [NC]
+RewriteCond %{HTTP_HOST} ^www.sfyn.org [NC,OR]
+RewriteCond %{HTTP_HOST} ^sfyn.org [NC]
 RewriteRule ^(.*)$ https://www.evecmdr.com/404 [L,R=302]
 
 RewriteCond %{HTTP_HOST} ^evecmdr.com [NC]

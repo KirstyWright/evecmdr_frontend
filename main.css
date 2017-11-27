@@ -100,13 +100,16 @@ a.normal-link:hover{
 }
 
 .big_divider{
-    width:calc(100% - 40px);
+    width:100%;
     display: block;
-    margin:20px 20px;
+    margin:20px 0px;
     background-color:#ccc;
     height:1px;
 }
+.clear {
+    clear:both;
+}
 
-.home_col {
-    padding:10px 40px;
+.modal-dialog {
+    min-width:900px !important;
 }

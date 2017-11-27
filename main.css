@@ -27,7 +27,7 @@ html,body {
     height:auto;
     margin-top:20px;
     text-align:center;
-    background:#5C6BC0;
+    background:#5d737e;
     color:#FFF;
 }
 
@@ -37,6 +37,9 @@ html,body {
     display:block;
 }
 
+#cv_container small{
+    color:#5d737e;
+}
 #cv_container{
     padding:0 !important;
 }
@@ -58,7 +61,7 @@ html,body {
     margin-top:-10px;
     color:#FFF;
     text-align:center;
-    background:#5C6BC0;
+    background:#5d737e;
 }
 
 .cv_icon{

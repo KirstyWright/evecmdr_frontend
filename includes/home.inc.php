@@ -31,7 +31,7 @@
         <!-- <a class='normal-link' href="/projects">View Projects</a> -->
     </div>
 </div>
-<img src='https://www.codewars.com/users/Kirsty%20Wright/badges/large' style='width:400px; margin:0 auto;'/>
+<img src='https://www.codewars.com/users/Kirsty%20Wright/badges/large' style='width:400px; margin:0 auto;display:block;'/>
 <div class="big_divider"></div>
 <h1 class='tc'>Personal Projects</h1>
 <div class="big_divider"></div>

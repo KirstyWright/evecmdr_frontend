@@ -9,6 +9,8 @@
     <a class="btn custom-button-light" href='https://www.evecmdr.com/cv'>CV</a>
 </div>
 <br>
+<img src='https://www.codewars.com/users/Kirsty%20Wright/badges/large' style='width:400px; margin:0 auto;display:block;'/>
+<br>
 <div class="big_divider"></div>
 <div class="row">
     <div class="col home_col">
@@ -31,7 +33,6 @@
         <!-- <a class='normal-link' href="/projects">View Projects</a> -->
     </div>
 </div>
-<img src='https://www.codewars.com/users/Kirsty%20Wright/badges/large' style='width:400px; margin:0 auto;display:block;'/>
 <div class="big_divider"></div>
 <h1 class='tc'>Personal Projects</h1>
 <div class="big_divider"></div>

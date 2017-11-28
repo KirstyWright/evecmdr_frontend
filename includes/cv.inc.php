@@ -60,9 +60,6 @@
     </small>
 </h3>
 <p>
-    <a href="https://www.evecmdr.com/job/clevergirls" ><strong>Link to project</strong></a>
-</p>
-<p>
     Clevergirls is an online gaming community and news site dedicated to promoting and informing players about online games that interest its audience. Content includes articles, podcasts, streaming and a host of other features yet to be released. I worked as the sole developer on the project and was tasked with building both the front and backends of the site. The frontend was customer facing and displayed articles and other content that was written by authors on the site. The backend contained a simple system for content authors to write articles and upload content. This was then proof read by editors who would make edits before submitting the finished pieces to the site.
 </p>
 <ul>
@@ -77,11 +74,6 @@
     <li>Streamer timetable with links to twitch and other streaming services.</li>
     <li>Commenting on articles with Disqus.</li>
 </ul>
-<h4 onClick="window.location.href = 'https://evecmdr.com'" style="text-align:center;cursor:pointer;">
-    <strong>
-        All other projects can be found at https://evecmdr.com
-    </strong>
-</h4>
 </div>
 <div class="col-lg-12 cv_sectionDivider">
     <h1>

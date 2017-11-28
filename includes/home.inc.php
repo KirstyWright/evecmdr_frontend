@@ -22,6 +22,7 @@
             <li>Javascript (ECMA5)</li>
             <li>Mysql</li>
             <li>Python (3+)</li>
+            <li>Ruby (learning)</li>
         </ul>
     </div>
     <div class="col home_col">
@@ -67,7 +68,14 @@
 <div class="big_divider"></div>
 <h2 class="tc">Polaris</h2>
 <p>Polaris is a automated assistant for an intelligence network for the game EVEonline, it runs and collects information from automated relays and external sources.
-    <br>Components of Polaris include:
+</p>
+<div>
+    <img class='img_preview' style='padding:10px;float:left;display:block;margin:0 auto;height:200px;width:auto%' src="https://i.gyazo.com/3873f771218d6c3f2e0196e060df8945.png" alt="">
+    <img class='img_preview' style='padding:10px;float:left;display:block;margin:0 auto;height:200px;width:auto%' src="https://i.gyazo.com/f7931e4f7bc58b5468c20c7b767ee46c.png" alt="">
+    <div class="clear"></div>
+</div>
+<p>
+    Components of Polaris include:
 </p>
 <ul>
     <li>Desktop Python programs to collect specific program log files.</li>

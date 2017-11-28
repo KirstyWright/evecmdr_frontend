@@ -40,6 +40,23 @@ if ($_GET['path'] == 'cv') {
 } else {
 ?>
 <body style="padding-top:4rem;">
+<!--
+                                 /\
+                                | \
+                                | |
+                                | |
+           |\                   | |
+          /, ~\                / /
+         X     `-.....-------./ /
+          ~-. ~  ~              |
+             \             /    |
+              \  /_     ___\   /
+              | /\ ~~~~~   \ |
+              | | \        || |
+              | |\ \       || )
+             (_/ (_/      ((_/
+        Not sure why you are looking this, but have a cat.
+-->
     <div class="container">
         <?php if ($_GET['path'] !== 'home'):?>
             <a id="header_left" class='normal-link' href='/home'>&lt;&lt; Back home</a>
